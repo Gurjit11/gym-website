@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 0;
+    
+}
+.navbar{
+    position: sticky;
+   top:0;
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: black;
+    z-index: 999;
+  
+}
+@media (max-width : 800px){
+  .navbar{
+    color:wheat;
+  }
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border: 3px;
+    border-radius: 12px;
+    padding: 3px;
+}
+.mid a{
+   text-decoration: none;
+    color:#fafafa;
+    font-size: smaller;
+  background-color: #050505;
+  border-radius: 0px;
+  padding: 5px;
+}
+.mid a:hover{
+  color:#0a0a0a;
+  font-size: smaller;
+  background-color: white;
+}
+
+.btn{
+padding: 3px;
+border-color: grey;
+margin: 3px;
+border-radius: 6px;
+color:#fafafa;
+font-size: smaller;
+background-color: #050505;
+}
+.right{
+    width:20%;
+}
+.center{
+ background-image:  url("https://www.teahub.io/photos/full/276-2764035_crossfit-wallpaper-backgrounds.jpg");
+ padding: 100px;
+ background-size: cover;
+ text-align: center;
+ text-transform: uppercase;
+ font-style: oblique;
+ font-size: larger;
+ color: aliceblue;
+}
+.signup{
+    background-color: rgb(250, 249, 249);
+    border-color: grey;
+    border-radius: 30px;
+    padding: 0px 10px;
+}
+.heading{
+    background-color: black;
+    border-radius: 90px;
+}
+.bold{
+    color: rgb(198, 198, 198);
+}
+.I{
+color: aliceblue;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.center1{
+text-align: center;
+background-image:  url("https://media.istockphoto.com/vectors/grunge-black-background-vector-id1190671385?k=20&m=1190671385&s=612x612&w=0&h=2XYrxrAKJ9SrWUSRYhoU2E2UbUYRpQI13Dhw7jFMCOI=") ; 
+padding: 40px;
+background-size: cover;
+}
+.center2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 300px;
+    border-color: blueviolet;
+    border-radius: 23px;
+}
+.blue{
+    
+    background-color: rgb(53, 53, 253);
+    padding: 3%;
+    border-radius: 3px;
+}
+.white{
+    background-color: rgb(234, 231, 231);
+    padding: 3%;
+    border-radius: 3px;
+}
+.yellow{
+    
+    background-color: rgb(213, 213, 49) ;
+    padding: 3%;
+    border-radius: 3px;
+}
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: 700;
+}
+
+.center3{
+  font-size: x-small;
+  background:#020203;
+  color:white;
+  font-family: caption;
+  padding:4px;
+}
